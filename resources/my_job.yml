@@ -1,0 +1,10 @@
+resources:
+  jobs:
+    sales_job:
+      name: sales_cicd_job
+
+      tasks:
+        - task_key: run_sales_notebook
+
+          notebook_task:
+            notebook_path: ../src/sales_notebook.py.ipynb
