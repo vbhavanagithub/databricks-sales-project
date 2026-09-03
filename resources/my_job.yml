@@ -7,4 +7,4 @@ resources:
         - task_key: run_sales_notebook
 
           notebook_task:
-            notebook_path: ../src/Sales_Notebook.py.ipynb
+            notebook_path: ../src/Sales_Notebook.ipynb
